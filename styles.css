@@ -11,6 +11,7 @@ body {
 h1 {
     text-align: center;
     color: teal;
+    padding-top: 20px;
 }
 
 h2,
@@ -20,17 +21,38 @@ h3 {
     text-decoration: underline;
 }
 
-.menu {
-    font-weight: 800;
-    text-transform: uppercase;
-    line-height: 2;
-    border: 3px solid teal;
+.homepage-card {
     width: 800px;
     margin: auto;
+    background: beige;
+    padding-bottom: 50px;
+    border: 3px solid teal;
+
+.main-nav {
+    font-weight: 800;
+    line-height: 2;
+    border: 3px solid black;
+    width: 600px;
+    margin: auto;
+    background: teal;
 }
 
-.menu > li {
+.main-nav ul {
+    text-align: center;
+    display: block;
+    padding: 0em;
+}
+
+.main-nav li {
+    text-transform: uppercase;
     display: inline-block;
+    padding: 5px 10px;
+    border: 2px solid black;
+    background: white;
+}
+
+.main-nav li:hover {
+    background-color: paleturquoise;
 }
 
 img.center {
