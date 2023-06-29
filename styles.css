@@ -4,8 +4,9 @@
 }
 
 body {
-    font-family:'Courier New', Courier, monospace;
+    font-family: 'Raleway', arial, sans-serif;
     line-height: 1.5;
+    color: #05386B;
 }
 
 h1 {
@@ -13,13 +14,15 @@ h1 {
     text-align: center;
     color: #edf5e1;
     padding-top: 20px;
+    font-weight: 800px;
 }
 
 h2,
 h3 {
-    font-family:'Courier New', Courier, monospace;
-    font-weight: 100;
-    text-decoration: underline;
+    font-family: Consolas, monaco, monospace;
+    text-decoration: none;
+    font-weight: 800px;
+    color: #edf5e1;
 }
 
 /* Homepage */
@@ -45,6 +48,7 @@ h3 {
     display: block;
     padding: 0em;
 }
+
 .main-nav li {
     text-transform: uppercase;
     color: #edf5e1;
@@ -60,18 +64,34 @@ h3 {
 
 /*Recipe content */
 
+hr {
+    border-top: 1px solid #edf5e1;
+    
+}
+
+.container {
+    width: 800px;
+    margin: auto;
+}
+
 .recipe-card img {
-    width: 600px;
-    display: inline-block;
-    vertical-align: top;
+    width: 700px;
+    display: block;
+    margin: auto;
+    padding: 5px;
+    background-color: #edf5e1;
+}
+
+.recipe-card {
+    background: #5cdb95;
+    border: 2px solid #05386B;
+    width: 800px;
+    margin: 0px;
+    padding-bottom: 40px;
 }
 
 .recipe-content {
     display: inline-block;
-    width: 1000px;
-}
-
-.method {
-    color: darkslategrey;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 800px;
+    padding: 0px 30px;
 }
